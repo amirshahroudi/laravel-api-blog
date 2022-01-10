@@ -38,8 +38,17 @@ This project using TDD (test driven development) testing.
     - Change name
     - Change password
     - Change profile image
+
+
 ## API Reference
+
+<details>
+
 ###  Post
+
+<details>
+    <summary> Post APIs </summary>
+    
 #### - Get all posts
 
 ```http
@@ -123,7 +132,14 @@ This project using TDD (test driven development) testing.
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `integer` | **Required**. Id of post to destroy |
 
+</details>
+    
+ 
 ###  Category
+    
+<details>
+    <summary> Category APIs </summary>
+
 #### - Get all categories
 
 ```http
@@ -172,7 +188,13 @@ This project using TDD (test driven development) testing.
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `integer` | **Required**. id of category to destroy |
 
+</details>
+    
 ###  Tag
+    
+<details>
+    <summary> Tag APIs </summary>
+
 #### - Get all tags
 
 ```http
@@ -219,7 +241,13 @@ This project using TDD (test driven development) testing.
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `integer` | **Required**. id of tag to destroy |
 
+</details>
+
 ###  Comment
+    
+<details>
+    <summary> Comment APIs </summary>
+
 #### - Get all comments
 
 ```http
@@ -257,7 +285,13 @@ This project using TDD (test driven development) testing.
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `integer` | **Required**. id of comment to destroy |
 
+</details>
+    
 ###  Upload
+    
+<details>
+    <summary> Upload APIs </summary>
+        
 #### - Upload post image
 
 ```http
@@ -278,7 +312,14 @@ This project using TDD (test driven development) testing.
 | :-------- | :------- | :-------------------------------- |
 | `image`      | `image` | **Required**. |
 
+</details>
+            
+            
 ###  Auth
+    
+<details>
+    <summary> Auth APIs </summary>
+                
 #### - Register
 
 ```http
@@ -337,7 +378,13 @@ This project using TDD (test driven development) testing.
 | `password_confirmation`      | `string` | **Required**. |
 | `token`      | `string` | **Required**. token email to user |
 
+</details>
+    
 ###  User
+    
+<details>
+    <summary> User APIs </summary>
+        
 #### - Get all users
 
 ```http
@@ -402,7 +449,13 @@ This project using TDD (test driven development) testing.
 | `id`      | `integer` | **Required**. id of admin that want to be user  |
 | `password`      | `string` | **Required**. password of admin |
 
+</details>
+    
 ###  Profile
+    
+<details>    
+    <summary> Profile APIs </summary>
+        
 #### - Update profile
 
 ```http
@@ -425,4 +478,7 @@ This project using TDD (test driven development) testing.
 | `current_password`      | `string` | **Required**. |
 | `new_password`      | `string` | **Required**. |
 | `new_password_confirmation`      | `string` | **Required**. |
-  
+
+</details>
+    
+</details>
