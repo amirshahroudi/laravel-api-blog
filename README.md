@@ -388,18 +388,18 @@ This project using TDD (test driven development) testing.
 #### - Get all users
 
 ```http
-  POST /api/user
+  GET /api/user
 ```
 #### - Get all admin
 
 ```http
-  POST /api/user/adminsList
+  GET /api/user/adminsList
 ```
 
 #### - Get user posts
 
 ```http
-  POST /api/user/{id}/posts
+  GET /api/user/{id}/posts
 ```
 
 | Parameter | Type     | Description                       |
@@ -409,7 +409,7 @@ This project using TDD (test driven development) testing.
 #### - Get user comments
 
 ```http
-  POST /api/user/{id}/comments
+  GET /api/user/{id}/comments
 ```
 
 | Parameter | Type     | Description                       |
@@ -420,7 +420,7 @@ This project using TDD (test driven development) testing.
 #### - Get user liked posts
 
 ```http
-  POST /api/user/{id}/liked-posts
+  GET /api/user/{id}/liked-posts
 ```
 
 | Parameter | Type     | Description                       |
